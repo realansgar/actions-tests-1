@@ -103,7 +103,7 @@ jobs:
 
       - name: Run Claude Code
         id: claude
-        uses: anthropics/claude-code-action@f30f5eecfce2f34fa72e40fa5f7bcdbdcad12eb8 # v1.0.14
+        uses: anthropics/claude-code-action@f4d737af0b61a79741d8246c5207da5887746212 # v1.0.15
         env:
           AZURE_SUBSCRIPTION_ID: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
         with:
